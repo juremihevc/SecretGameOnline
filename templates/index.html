@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}GUESSING GAME{% endblock title %}
+
+{% block content %}
+
+	<h1>GUESSING GAME</h1>
+	<form method="post" action="/result">
+
+	    <input type="text" name="user_guess" placeholder="Guess the secret number" required >
+	    <br>
+
+        <button type="submit">Submit</button>
+	</form>
+
+{% endblock content %}
