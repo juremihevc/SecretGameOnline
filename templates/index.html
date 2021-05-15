@@ -5,12 +5,13 @@
 {% block content %}
 
 	<h1>GUESSING GAME</h1>
+	<p>Guess the secret number between 1 and 30:</p>
 	<form method="post" action="/result">
 
-	    <input type="text" name="user_guess" placeholder="Guess the secret number" required >
+	    <input type="text" name="user_guess" placeholder="Type your number here" required >
 	    <br>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Guess</button>
 	</form>
 
 {% endblock content %}
